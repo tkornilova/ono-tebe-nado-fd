@@ -1,3 +1,8 @@
+:root {
+  --main-white: #fff;
+  --main-black: #000;
+}
+
 /* Header */
 
 .header {
@@ -103,13 +108,13 @@
   position: absolute;
   inset: 0;
   opacity: 60%;
-  background-color: #000000;
+  background-color: var(--main-black);
 }
 
 .cover__title {
   position: relative;
   z-index: 1;
-  color: #FFFFFF;
+  color:  var(--main-white);
   font-weight: 700;
   font-size: 100px;
   line-height: 136px;
@@ -149,7 +154,7 @@
 }
 
 .cover__description-text {
-  color: #FFFFFF;
+  color:  var(--main-white);
   font-size: 22px;
   line-height: 28px;
   text-transform: uppercase;
@@ -159,9 +164,9 @@
 .bet-button {
   width: 256px;
   min-height: 51px;
-  border: 1px solid #FFFFFF;
+  border: 1px solid  var(--main-white);
   padding: 10px;
-  color: #FFFFFF;
+  color:  var(--main-white);
   font-weight: 500;
   font-size: 22px;
   line-height: 22px;
@@ -173,8 +178,8 @@
 .bet-button:hover,
 .bet-button:focus {
   outline: none;
-  color: #000000;
-  background-color: #FFFFFF;
+  color: var(--main-black);
+  background-color:  var(--main-white);
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
@@ -186,7 +191,7 @@
 
 .lots__heading {
   margin: 0 0 30px 40px;
-  color: #000000;
+  color: var(--main-black);
   font-weight: 700;
   font-size: 40px;
   line-height: 40px;
@@ -249,7 +254,7 @@
 }
 
 .card__title {
-  color: #FFFFFF;
+  color:  var(--main-white);
   font-weight: 700;
   font-size: 22px;
   line-height: 120%;
@@ -260,7 +265,7 @@
 
 .card__text {
   justify-self: end;
-  color: #FFFFFF;
+  color:  var(--main-white);
   font-size: 20px;
   line-height: 120%;
 }
@@ -297,7 +302,7 @@
   width: 240px;
   height: 240px;
   border-radius: 50%;
-  background-color: #000000;
+  background-color: var(--main-black);
 }
 
 .about__column:last-child {
@@ -307,7 +312,7 @@
 
 .about__title {
   align-self: center;
-  color: #000000;
+  color: var(--main-black);
   font-weight: 700;
   font-size: 40px;
   line-height: 100%;
@@ -316,7 +321,7 @@
 
 .about__text {
   margin: 0 0 25px;
-  color: #000000;
+  color: var(--main-black);
   font-size: 20px;
   line-height: 24px;
 }
