@@ -60,3 +60,94 @@
   opacity: 0.5;
   transition: opacity 0.3s ease;
 }
+
+.cover {
+  position: relative;
+
+  display: grid;
+  grid-template-rows: 1fr auto;
+  gap: 95px;
+  padding: 155px 50px 50px;
+  background-image: url(../images/cover.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  opacity: 60%;
+  background-color: #000000;
+}
+
+.cover__title {
+  position: relative;
+  z-index: 1;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 136px;
+  text-transform: uppercase;
+}
+
+.aligned-text {
+  display: block;
+  text-align: left;
+}
+
+.aligned-text_center {
+  display: block;
+  text-align: center;
+}
+
+.aligned-text_right {
+  display: block;
+  text-align: right;
+}
+
+.letter-spacing-extended {
+  letter-spacing: 30px;
+}
+
+.no-letter-spacing {
+  letter-spacing: normal;
+}
+
+.cover__description {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: 20px;
+}
+
+.cover__description-text {
+  color: #FFFFFF;
+  font-size: 22px;
+  line-height: 28px;
+  text-transform: uppercase;
+  word-spacing: 18px;
+}
+
+.bet-button {
+  width: 256px;
+  min-height: 51px;
+  border: 1px solid #FFFFFF;
+  padding: 10px;
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 22px;
+  text-transform: uppercase;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.bet-button:hover,
+.bet-button:focus {
+  outline: none;
+  color: #000000;
+  background-color: #FFFFFF;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
