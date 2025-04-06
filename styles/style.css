@@ -159,7 +159,7 @@
 /* Блок lots */
 
 .lots {
-  padding: 184px 24px 50px;
+  padding: 184px 24px 0;
 }
 
 .lots__heading {
@@ -257,4 +257,48 @@
   outline: none;
   opacity: 0.5;
   transition: opacity 0.3s ease;
+}
+
+/* Блок about */
+
+.about {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  gap: 72px;
+  padding: 155px 25px 0 71px;
+}
+
+.about__logo {
+  width: 240px;
+  height: 240px;
+  background-color: #000000;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about__column:last-child {
+  display: grid;
+  grid-template-rows: 248px 1fr;
+}
+
+.about__title {
+  color: #000000;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 100%;
+  text-transform: uppercase;
+  align-self: center;
+}
+
+.about__text {
+  color: #000000;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 0 0 25px;
+}
+
+.about__text:last-child {
+  margin: 0;
 }
