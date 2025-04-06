@@ -10,7 +10,7 @@
   grid-template-columns: auto min-content 1fr;
   align-items: center;
   gap: 40px;
-  margin: 89px 50px 97px;
+  padding: 91px 50px 97px;
 }
 
 .header__links-list {
@@ -97,8 +97,8 @@
 
   display: grid;
   grid-template-rows: 1fr auto;
-  gap: 95px;
-  padding: 155px 50px 50px;
+  gap: 94px;
+  padding: 155px 50px 49px;
   background-image: url(../images/cover.jpg);
   background-position: center;
   background-size: cover;
