@@ -121,17 +121,17 @@
   text-transform: uppercase;
 }
 
-.aligned-text {
+.aligned-text__left {
   display: block;
   text-align: left;
 }
 
-.aligned-text_center {
+.aligned-text__center {
   display: block;
   text-align: center;
 }
 
-.aligned-text_right {
+.aligned-text__right {
   display: block;
   text-align: right;
 }
