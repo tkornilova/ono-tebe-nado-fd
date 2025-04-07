@@ -45,15 +45,6 @@
   cursor: unset;
 }
 
-.header__link:hover,
-.header__link:focus,
-.footer__link:hover,
-.footer__link:focus {
-  outline: none;
-  opacity: 0.5;
-  transition: opacity 0.3s ease;
-}
-
 .header__link.header__link_active:hover,
 .header__link.header__link_active:focus,
 .footer__link.footer__link_active:hover,
@@ -81,13 +72,6 @@
 
 .address__link {
   text-underline-offset: 4px;
-}
-
-.address__link:hover,
-.address__link:focus {
-  outline: none;
-  opacity: 0.5;
-  transition: opacity 0.3s ease;
 }
 
 /* Блок cover */
@@ -245,13 +229,6 @@
   padding: 48px 40px;
 }
 
-.card-link:hover,
-.card-link:focus {
-  outline: none;
-  opacity: 0.6;
-  transition: opacity 0.3s ease;
-}
-
 .card__title {
   color:  var(--main-white);
   font-weight: 700;
@@ -276,13 +253,6 @@
   text-decoration: underline;
   text-underline-offset: 4px;
   text-transform: lowercase;
-}
-
-.lots__look-more-link:hover,
-.lots__look-more-link:focus {
-  outline: none;
-  opacity: 0.5;
-  transition: opacity 0.3s ease;
 }
 
 /* Блок about */
@@ -358,10 +328,11 @@
   list-style: none;
 }
 
-.footer__social-list-item:hover,
-.footer__social-list-item:focus,
-.footer__social-link:focus-visible {
+/* Эффекты при hover и focus */
+
+.opacity-effect:hover,
+.opacity-effect:focus {
   outline: none;
-  opacity: 0.5;
+  opacity: 0.55;
   transition: opacity 0.3s ease;
 }
