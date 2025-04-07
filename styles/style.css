@@ -94,7 +94,6 @@
 
 .cover {
   position: relative;
-
   display: grid;
   grid-template-rows: 1fr auto;
   gap: 94px;
